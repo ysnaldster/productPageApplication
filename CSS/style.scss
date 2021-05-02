@@ -1,0 +1,85 @@
+// Paleta de colores 
+$blue-intermedio: #8ab6d6;
+$blue-fuerte: #2978b5;
+$blue-ultra: #0061a8;
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background-color: #f9f3f3;
+}
+
+header{
+    #header-container{
+        background-color: $blue-fuerte;
+    }
+    a{
+        color: #fff;
+        font-weight: bold;
+    }
+}
+main{
+    #form{
+        width: 100%;
+        .form-container{
+            font-weight: bold;
+            color: #fff;
+            width: 50%;
+            background-color: $blue-fuerte;
+            border-radius: 15px;
+            padding: 15px;
+            #usuario-registro{
+                border-radius: 10px;
+                padding: 10px;
+                width: 50%;
+                background-color: #d1f5fb;
+            }
+            #validacion-datos{
+                padding: 10px;
+                background-color: #393e46;
+                color: #fff;
+                border-radius: 15px;
+                font-size: 15px;
+                font-weight: bold;
+            }
+        }
+    }
+    .history-title{
+        font-size: 35px;
+        color: $blue-ultra;
+        font-weight: bold;
+        margin-top: 100px;
+    }
+    #innovacion-container{
+        background-color: $blue-ultra;
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #sucursales-title{
+        font-size: 35px;
+        color: $blue-ultra;
+        font-weight: bold;
+        margin: 20px 0;
+    }
+
+}
+
+footer{
+    a{
+        color: #fff;
+        padding: 0 10px;
+    }
+}
